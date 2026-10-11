@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the paper below."
+title: "landslide-gnn: low-cost landslide monitoring with a graph neural network"
+version: 0.1.0
+license: MIT
+authors:
+  - family-names: Dwijaksara
+    given-names: Made Harta
+    affiliation: Universitas Indonesia
+  - family-names: Wicaksana
+    given-names: Yudhidya
+    affiliation: Institut Teknologi Bandung
+  - family-names: Sarah
+    given-names: Dwi
+    affiliation: National Research and Innovation Agency (BRIN)
+  - family-names: Nasikun
+    given-names: Ahmad
+    affiliation: Universitas Gadjah Mada
+preferred-citation:
+  type: article
+  title: "A Low-Cost Landslide Monitoring System Using Graph Neural Network with LoRa-Connected IMU and GNSS Sensors"
+  authors:
+    - family-names: Dwijaksara
+      given-names: Made Harta
+    - family-names: Wicaksana
+      given-names: Yudhidya
+    - family-names: Sarah
+      given-names: Dwi
+    - family-names: Nasikun
+      given-names: Ahmad
+  year: 2026
+  status: preprint

@@ -1,0 +1,60 @@
+# Default hyperparameters (Table VI of the paper). Override on the CLI with --set section.key=value
+data:
+  stations_csv: data/stations.csv
+  observations_csv: data/observations.csv
+  window: 60
+  stride: 1
+  max_gap: 3
+  min_obs_frac: 0.5
+  split_mode: auto
+  split_ratios:
+  - 0.7
+  - 0.15
+  - 0.15
+graph:
+  k: 3
+  use_knn_edges: true
+  use_flow_edges: true
+  flow_radius_m: 60.0
+  flow_min_drop_m: 1.0
+  flow_max_angle_deg: 45.0
+  slope_fit_neighbors: 6
+model:
+  type: gat
+  conv_channels:
+  - 32
+  - 64
+  conv_kernels:
+  - 5
+  - 3
+  hidden: 64
+  pool: mean_last
+  heads: 4
+  layers: 2
+  use_edge_features: true
+  head_hidden: 32
+  dropout: 0.2
+  attn_dropout: 0.2
+  negative_slope: 0.2
+loss:
+  focal_gamma: 2.0
+  class_weighting: effective
+  beta: 0.999
+train:
+  epochs: 200
+  patience: 20
+  batch_size: 32
+  lr: 0.001
+  weight_decay: 0.0001
+  grad_clip: 5.0
+  seed: 42
+  device: auto
+  num_workers: 0
+decision:
+  ema: 0.5
+  tau: 0.3
+  k_up: 2
+  k_down: 5
+  k_up_landslide: 1
+  horizon_s: 86400.0
+output_dir: runs/default

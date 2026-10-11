@@ -1,0 +1,1 @@
+site_id,event_id,timestamp,station_id,roll_deg,pitch_deg,yaw_deg,droll_deg,dpitch_deg,dyaw_deg,gps_dx_m,gps_dy_m,gps_dz_m,gps_vel_mm_h,rain_rate_mm_h,rain_24h_mm,rain_72h_mm,temp_c,rh_pct,label,split,source

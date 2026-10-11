@@ -1,0 +1,10 @@
+site_id,station_id,x_m,y_m,z_m,geo_unit
+site0,site0_S00,0.6,-0.55,199.55,colluvium
+site0,site0_S01,24.09,-1.98,200.03,colluvium
+site0,site0_S02,52.68,-0.98,199.69,colluvium
+site0,site0_S10,0.98,-19.29,186.37,colluvium
+site0,site0_S11,23.14,-20.06,186.67,colluvium
+site0,site0_S12,47.31,-20.92,185.37,colluvium
+site0,site0_S20,-2.58,-43.68,172.52,residual_soil
+site0,site0_S21,22.47,-39.46,172.71,residual_soil
+site0,site0_S22,49.63,-45.03,172.37,residual_soil
