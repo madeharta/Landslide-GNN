@@ -2,7 +2,7 @@
 
 Reference implementation of the graph neural network described in
 
-> M. H. Dwijaksara, Y. Wicaksana, D. Sarah, and A. Nasikun,
+> M. H. Dwijaksara, Y. Wicaksana, and D. Sarah
 > **"A Low-Cost Landslide Monitoring System Using Graph Neural Network with LoRa-Connected IMU and GNSS Sensors,"** 2026 (manuscript in preparation).
 
 Each sensing station on a slope (six-axis IMU + GNSS, plus the nearest weather
